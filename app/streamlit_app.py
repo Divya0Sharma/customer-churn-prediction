@@ -102,7 +102,7 @@ with st.sidebar:
 
     st.divider()
 
-    st.header("📋 How to use this app")
+    st.header("How to use this app")
     st.markdown(
         """
         1. Fill in the customer's details in the form.
