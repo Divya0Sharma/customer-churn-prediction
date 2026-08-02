@@ -1,4 +1,4 @@
-# 📉 Customer Churn Prediction
+# Customer Churn Prediction
 
 A complete end-to-end machine learning project that predicts whether a telecom
 customer is likely to **churn** (cancel their subscription), based on the
@@ -13,7 +13,7 @@ clean, reproducible, production-style repository.
 
 ---
 
-## 🧠 What this project does
+## What this project does
 
 1. **Explores** the Telco Customer Churn dataset (demographics, account info,
    services subscribed, billing details) to understand churn drivers.
@@ -30,7 +30,7 @@ clean, reproducible, production-style repository.
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 customer-churn-prediction/
@@ -49,7 +49,7 @@ customer-churn-prediction/
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 | Purpose                     | Tool / Library            |
 |------------------------------|---------------------------|
@@ -68,7 +68,7 @@ end-to-end (notebook → saved model → app).
 
 ---
 
-## 📊 About the Dataset
+## About the Dataset
 
 The **Telco Customer Churn** dataset contains ~7,000 customer records from a
 fictional telecom company, with features such as:
@@ -99,7 +99,7 @@ fictional telecom company, with features such as:
 
 ---
 
-## 🚀 Getting Started
+## Getting Started
 
 ### 1. Clone the repository
 
@@ -189,7 +189,7 @@ To stop the app, go back to your terminal and press `Ctrl + C`.
 
 ---
 
-## ☁️ Optional: Deploy on Streamlit Community Cloud
+## Optional: Deploy on Streamlit Community Cloud
 
 Streamlit Community Cloud lets you host this app for free and share it with
 a public link. High level steps (see
@@ -228,7 +228,7 @@ for the most up-to-date walkthrough):
 
 ---
 
-## 🩺 Troubleshooting
+## Troubleshooting
 
 | Problem | Likely fix |
 |---|---|
@@ -240,7 +240,7 @@ for the most up-to-date walkthrough):
 
 ---
 
-## 🗺️ Roadmap / Next Steps
+## Roadmap / Next Steps
 
 - [x] Project structure & README
 - [x] EDA, preprocessing, and model training/comparison notebook
@@ -251,7 +251,7 @@ for the most up-to-date walkthrough):
 
 ---
 
-## 📄 License
+## License
 
 This project is intended for educational and portfolio purposes. The
 dataset is publicly available on Kaggle under its own license terms.
