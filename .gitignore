@@ -1,0 +1,36 @@
+# Byte-compiled / cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+env/
+.venv/
+.env
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Data (raw dataset shouldn't be committed)
+data/*.csv
+!data/README.md
+
+# Trained models / artifacts
+models/*.pkl
+models/*.joblib
+models/*.h5
+!models/.gitkeep
+!models/churn_model.joblib
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Streamlit
+.streamlit/
+
+# Logs
+*.log
