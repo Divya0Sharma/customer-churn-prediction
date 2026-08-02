@@ -22,7 +22,6 @@ import streamlit as st
 # ---------------------------------------------------------------------------
 st.set_page_config(
     page_title="Customer Churn Prediction",
-    page_icon="📉",
     layout="wide",
     initial_sidebar_state="expanded",
 )
@@ -74,7 +73,7 @@ bundle = load_model_bundle(MODEL_PATH)
 # Sidebar — model info & instructions
 # ---------------------------------------------------------------------------
 with st.sidebar:
-    st.title("📊 Model Info")
+    st.title("Model Info")
 
     if bundle is not None:
         st.success("Model loaded successfully")
@@ -107,7 +106,7 @@ with st.sidebar:
     st.markdown(
         """
         1. Fill in the customer's details in the form.
-        2. Click **🔮 Predict Churn**.
+        2. Click **Predict Churn**.
         3. Review the prediction, confidence score, and the key
            factors driving churn overall.
 
@@ -128,7 +127,7 @@ with st.sidebar:
 # ---------------------------------------------------------------------------
 # Header
 # ---------------------------------------------------------------------------
-st.title("📉 Customer Churn Prediction")
+st.title("Customer Churn Prediction")
 st.markdown(
     """
     Predict whether a telecom customer is likely to **churn** (cancel
@@ -244,7 +243,7 @@ with st.form("churn_form"):
             "Total Charges ($)", min_value=0.0, max_value=10000.0, value=840.0, step=10.0
         )
 
-    submitted = st.form_submit_button("🔮 Predict Churn", use_container_width=True)
+    submitted = st.form_submit_button("Predict Churn", use_container_width=True)
 
 
 # ---------------------------------------------------------------------------
@@ -295,7 +294,7 @@ if submitted:
         stay_probability = float(probabilities[0])
 
         st.divider()
-        st.subheader("🔎 Prediction Result")
+        st.subheader("Prediction Result")
 
         result_col, prob_col = st.columns([1, 1])
 
@@ -345,7 +344,7 @@ if submitted:
 # Feature importance section
 # ---------------------------------------------------------------------------
 st.divider()
-st.subheader("🔍 What Drives Churn? (Feature Importance)")
+st.subheader("What Drives Churn? (Feature Importance)")
 
 if hasattr(model, "feature_importances_"):
     importances = pd.Series(model.feature_importances_, index=feature_names)
