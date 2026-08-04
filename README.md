@@ -35,7 +35,7 @@ clean, reproducible, production-style repository.
 ```
 customer-churn-prediction/
 ├── data/
-│   └── WA_Fn-UseC_-Telco-Customer-Churn.csv   # place the dataset here (see below)
+│   └── WA_Fn-UseC_-Telco-Customer-Churn.csv   
 ├── notebooks/
 │   └── 01_churn_prediction.ipynb              # EDA, preprocessing, model training & evaluation
 ├── models/
@@ -90,14 +90,6 @@ fictional telecom company, with features such as:
    ```
    data/WA_Fn-UseC_-Telco-Customer-Churn.csv
    ```
-
-> If you have the [Kaggle CLI](https://github.com/Kaggle/kaggle-api) set up
-> with your API credentials, you can instead run:
-> ```bash
-> kaggle datasets download -d blastchar/telco-customer-churn -p data --unzip
-> ```
-
----
 
 ## Getting Started
 
@@ -178,7 +170,7 @@ browser at `http://localhost:8501`. If it doesn't open automatically, copy
 that URL into your browser manually.
 
 In the app, fill in a customer's details (contract type, tenure, monthly
-charges, services subscribed, etc.) and click **🔮 Predict Churn** to see:
+charges, services subscribed, etc.) and click **Predict Churn** to see:
 
 - The prediction (**Churn** or **No Churn**)
 - A churn probability / confidence score
