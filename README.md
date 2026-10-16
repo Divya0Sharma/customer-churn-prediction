@@ -232,17 +232,6 @@ for the most up-to-date walkthrough):
 
 ---
 
-## Roadmap / Next Steps
-
-- [x] Project structure & README
-- [x] EDA, preprocessing, and model training/comparison notebook
-- [x] Streamlit app with live predictions and feature importance
-- [ ] Hyperparameter tuning for the best model
-- [ ] Add a batch-prediction mode (upload a CSV of many customers at once)
-- [ ] (Optional) Deploy the Streamlit app to Streamlit Community Cloud
-
----
-
 ## License
 
 This project is intended for educational and portfolio purposes. The
